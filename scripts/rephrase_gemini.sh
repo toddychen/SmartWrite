@@ -2,9 +2,9 @@
 
 usage() {
   echo "Usage: $0 <text_to_rephrase> [tone] [enable_log]"
-  echo "  <text_to_rephrase>: 要重写的文本"
-  echo "  [tone]: 重写语气，默认 neutral"
-  echo "  [enable_log]: 是否启用日志，true/1/yes/log 表示开启，默认开启"
+  echo "  <text_to_rephrase>: Text to be rephrased"
+  echo "  [tone]: Rephrasing tone, default is neutral"
+  echo "  [enable_log]: Enable logging, true/1/yes/log to enable, default is enabled"
   exit 1
 }
 
